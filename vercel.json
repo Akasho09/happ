@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "kingsukh-guest-house",
   "builds": [
     {
       "src": "package.json",
