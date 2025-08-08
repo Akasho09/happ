@@ -21,7 +21,7 @@ const Loading = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          King Sukh Guest House
+          Serene Stay Guest House
         </motion.h2>
         <motion.p 
           className="text-gray-600"

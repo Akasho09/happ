@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -24,7 +23,7 @@ const About = () => {
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              About <span className="text-primary">King Sukh Guest House</span>
+              About <span className="text-primary">Serene Stay Guest House</span>
             </motion.h2>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <motion.p 
@@ -33,7 +32,7 @@ const About = () => {
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                Nestled in the serene landscapes of West Bengal, King Sukh Guest House offers 
+                Nestled in the serene landscapes of New Delhi, Serene Stay Guest House offers 
                 an unparalleled experience of comfort and tranquility. Our guest house combines 
                 traditional hospitality with modern amenities to create the perfect retreat 
                 for travelers seeking peace and relaxation.
@@ -53,7 +52,7 @@ const About = () => {
                 transition={{ duration: 0.8, delay: 0.8 }}
               >
                 Whether you're here for a weekend getaway, a family vacation, or a 
-                peaceful retreat, King Sukh Guest House promises an unforgettable 
+                peaceful retreat, Serene Stay Guest House promises an unforgettable 
                 experience that will leave you refreshed and rejuvenated.
               </motion.p>
             </div>

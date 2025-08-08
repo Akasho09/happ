@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const galleryImages = [
   { src: '/assets/ayodhya.webp', alt: 'Ayodhya View', category: 'Destinations' },
